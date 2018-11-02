@@ -1,0 +1,9 @@
+Package: UQthesis
+Title: A template for producing theses in R Markdown that conform to The University of Queensland style requirements.
+Version: 0.0.0.9000
+Authors@R: person("Jayden", "Macklin-Cordes", email = "j.macklincordes@uq.edu.au", role = c("aut", "cre"))
+Description: This package installs a template for producing UQ PhD theses in R Markdown.
+Depends: R (>= 3.5.1)
+License: GNU GPLv3
+Encoding: UTF-8
+LazyData: true
