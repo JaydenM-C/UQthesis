@@ -7,6 +7,8 @@ More information coming soon.
 
 # Usage
 
-1. Install the UQthesis package.
+1. Install the UQthesis package: devtools::install_github("jaydenm-c/UQthesis")
 2. File > New document > Rmarkdown... > From template > select the 'UQthesis' template.
 3. Write
+
+More instructions coming soon.
