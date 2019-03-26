@@ -1,0 +1,68 @@
+%THIS IS AN EXAMPLE OF HOW YOU MIGHT INTRODUCE A CHAPTER WHICH HAS ALREADY BEEN PUBLISHED.
+\cleartoevenpage
+\pagestyle{empty}	%Use this to suppress the header from the preceding chapter.
+
+\noindent
+The following publication has been incorporated as Chapter~\ref{Chap:label}.
+
+\noindent
+1.~\cite{citationkey} \textbf{Your Name}, Co-author 1, and Final Author, \href{linktoyourpaper}{Title of your paper}, \textit{Journal} Issue, Number, Year
+
+\begin{table}[h]
+	\begin{center}
+	\begin{tabular}{|c|l|l|}
+		\hline
+		Contributor & Statement of contribution & \% \\
+		\hline
+		\textbf{Your Name}				& writing of text 					& 70\\
+															& proof-reading							& 60 \\
+															& theoretical derivations 	& 70\\
+															& numerical calculations 		& 100\\
+															& preparation of figures 		& 80 \\
+															& initial concept						& 10 \\
+		\hline
+		Co-author 1								& writing of text 					& 20\\
+															& proof-reading							& 10 \\
+															& supervision, guidance 		& 20\\
+															& theoretical derivations 	& 10\\
+															& preparation of figures 		& 20 \\
+															& initial concept						& 10 \\
+		\hline
+		Final Author							& writing of text 					& 10\\
+															& proof-reading							& 30 \\
+															& supervision, guidance 		& 80 \\
+															& theoretical derivations 	& 20 \\
+															& preparation of figures 		& 10 \\
+															& initial concept						& 80 \\
+		\hline
+	\end{tabular}
+	\end{center}
+\end{table}
+
+If your task breakdown requires further clarification, do so here. Do not exceed a single page.
+
+%-------------------------------------------------------------------------------------------------------%
+%-------------------------------------------------------------------------------------------------------%
+%-------------------------------------------------------------------------------------------------------%
+%-------------------------------------------------------------------------------------------------------%
+%-------------------------------------------------------------------------------------------------------%
+%-------------------------------------------------------------------------------------------------------%
+%This is an internal chapter of the thesis.
+%If you have a long title, you can supply an abbreviated version to print in the Table of Contents using the optional argument to the \chapter command.
+\chapter[Abbreviated title]{Full title}
+\label{Chap:label}	%CREATE YOUR OWN LABEL.
+\pagestyle{headings}
+
+%If you are presenting work which has been previously published, acknowledge this here.
+
+Introduce the broad layout of the chapter.
+
+%-------------------------------------------------------------------------------------------------------%
+%-------------------------------------------------------------------------------------------------------%
+%-------------------------------------------------------------------------------------------------------%
+\section{Introduction}
+\label{Sec:label}	%CREATE YOUR OWN LABEL.
+
+\begin{instructional}
+Add your text here. Use \verb|\cite| to add citation labels. Reference sections, tables, and figures using \verb|\ref|. Use \verb|\eqref| for equations. The `section' symbol $\S$ is obtained using \verb|$\S$|. Figures and other floats are added using their respective environments. Use \verb|\longtable| to split tables over page.
+\end{instructional}

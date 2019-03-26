@@ -1,0 +1,12 @@
+#bookdown::gitbook:
+#  css: style.css
+#  config:
+#    download: ["pdf", "epub"]
+bookdown::pdf_book: default
+  keep_tex: yes
+  template: /UQ-pandoc-template/masterfile.tex
+#  includes:
+#    in_header: preamble.tex
+#  citation_package: natbib
+
+#bookdown::epub_book:
